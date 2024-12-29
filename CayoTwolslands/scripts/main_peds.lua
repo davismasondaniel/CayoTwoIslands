@@ -4,7 +4,7 @@ function IsNearby(playerCoords, pedCoords)
     return #(playerCoords - vector3(pedCoords.x, pedCoords.y, pedCoords.z)) <= Config.SpawnDistance
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         local playerCoords = GetEntityCoords(PlayerPedId())
 

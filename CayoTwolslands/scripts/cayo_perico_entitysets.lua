@@ -1,4 +1,4 @@
-Citizen.CreateThread(function()
+CreateThread(function()
     Wait(0)
 
     local interiorID = 280065

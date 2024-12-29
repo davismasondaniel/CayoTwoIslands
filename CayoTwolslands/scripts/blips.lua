@@ -23,7 +23,7 @@ local blips = {
     { title = "Island House", colour = 7, id = 40, x = 5026.97, y = -5735.91, z = 17.87 },
 }
 
-Citizen.CreateThread(function()
+CreateThread(function()
     for _, info in pairs(blips) do
         info.blip = AddBlipForCoord(info.x, info.y, info.z)
         SetBlipSprite(info.blip, info.id)
