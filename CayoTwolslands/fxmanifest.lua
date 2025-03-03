@@ -20,4 +20,6 @@ client_scripts {
 
     'scripts/main_peds.lua' -- Don't touch this
 
+    'scripts/static_emitters.lua' -- Disables annoying 'cheering' SFXs from Arena Wars location near North Yankton / Cayo Perico
+
 }
