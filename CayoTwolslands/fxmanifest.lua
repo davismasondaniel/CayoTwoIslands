@@ -5,9 +5,6 @@ name 'CayoTwoIslands'
 author 'TayMcKenzieNZ'
 description 'Spawns Cayo Perico alongside Los Santos'
 
--- Server build must be on the LATEST recommended server build. You should be checking for and updating this at least once a month
--- Server MUST be on gamebuild 2189 or higher for this resource to run sucessfully
-
 this_is_a_map 'yes'
 
 client_scripts {
@@ -24,12 +21,3 @@ client_scripts {
     'scripts/main_peds.lua' -- Don't touch this
 
 }
-
-
-
----                                                                     ---
----   THIS IS A FREE RESOURCE PROVIDED TO CFXRE FORUMS FOR FIVEM USAGE   ---
----        DO NOT REUPLOAD OR MODIFY WITHOUT MY PERMISSION               ---
----        DO NOT CONVERT FOR SINGLE PLAYER USAGE WITHOUT MY PERMISSION  ---
----    YOU CAN COMMENT OUT PEDS AND TELEPORTERS IF YOU WISH TO          ---
----    DO NOT DM ME FOR ONE ON ONE SUPPORT.                             ---
